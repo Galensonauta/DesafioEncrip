@@ -1,25 +1,108 @@
-label {
-display: block;
-font: 1rem 'Fira Sans', sans-serif;
-margin-top: 5px;
+*{
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 32px;
 }
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+.muñeco{
+    position: absolute;
+width: 336px;
+height: 304px;
+left: 725px;
+top: 283px;
+}
+.mensajeOriginal {
+border: none;
+color: #0A3871;
+margin-top: 90px;
+text-transform: lowercase;
+}
+::placeholder{
+    color: #0A3871;
+}
+.mensajeOriginal:focus{
+ outline: none;
+}
+.mensajeResp{
+    background-image: url("Muñeco.png");
+    background: white;
+    background-repeat: no-repeat;
+    boder: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin: 32px;
+    padding-left: 20px;
+    position: fixed;
+width: 336px;
+height: 450px;
+left: 725px;
+top: 10px;
 
-input  {
-position: absolute;
-margin-right: 10px;
-margin-top: 10px;
-height: 250px;
-width: 250px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+
 }
-button{
-margin-top: 300px;
+.mensajeResp:focus{
+    outline: none;
+}
+.button{
+    display: flex;
+    margin-top: 15px;
+}
+#encrip{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:  white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+#desencrip{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: blue;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+
+}
+#copiar{
+    
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:  white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 .area{
-position: absolute;
-width: 400px;
-height: 944px;
-left: 1000px;
-top: 40px;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 40px;
+    height: auto;
+    left: 725px;
+    top: 40px;
+    width: 400px;
 
 /* White */
 

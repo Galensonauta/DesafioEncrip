@@ -3,113 +3,31 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Encrip</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="./encrip.css" />
-
 </head>
 <body>
-    <style>
-        label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-    margin-top: 5px;
-}
-
-input  {
-    position: absolute;
-    margin-right: 10px;
-    margin-top: 10px;
-    height: 250px;
-    width: 250px;
-}
-button{
-    margin-top: 300px;
-}
-.area{
-position: absolute;
-width: 400px;
-height: 944px;
-left: 1000px;
-top: 40px;
-
-/* White */
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-border-radius: 32px;
-}
-h1{
-    width: 336px;
-height: 48px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-/* or 24px */
-
-text-align: center;
-
-/* Gray/gray-400 */
-
-color: #495057;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-}
-h2{
-    width: 336px;
-height: 58px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 120%;
-/* or 29px */
-
-text-align: center;
-
-/* Gray/gray-500 */
-
-color: #343A40;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-    </style>
-    <section class="base">
-        
-    </section>
-<section class="principal">
-    <label for="name">Escriba su mensaje:</label>
-    <input type="text" id="name" name="name" required
-    minlength="1" maxlength="250">
-    <button id="encrip">Encripa</button>
-    <button id="desencrip">Desencrip</button></section>
-    <section class="area">
-            <h1>Ningun mensaje fue enconrado</h1>
-            <h2>Ingrese el exo que desea encripar</h2>
-            <button id="copiar">Copiar</button>
-    </section>
-
-    
-        </body>
-        
-           
+    <header>
+        <img class="logo" src="Vector.png">
+    </header>
+<main>
+    <section class="principal">
+        <textarea class="mensajeOriginal" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+        <div class="button">
+            <button id="encrip">Encripa</button>
+        <button id="desencrip">Desencrip</button>
+        </div>
+        </section>
+        <section class="area">
+            <textarea class="mensajeResp" cols="30" rows="10"></textarea>
+            <img class="muñeco" src="Muñeco.png">
+                <!--<h1>Ningun mensaje fue enconrado</h1>
+                <h2>Ingrese el exo que desea encripar</h2>-->
+                <button id="copiar">Copiar</button>
+        </section>
         <script src="./src/encrip.js"></script>           
+    
+</main>
+</body>
 </html>
