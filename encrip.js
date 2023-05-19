@@ -20,7 +20,6 @@ function bDesencrip(){
 function bCopiar(){
     const copiado=  mensajeResp.value
     navigator.clipboard.writeText(copiado)
-
 }
 
 function encrip(codigo){ 

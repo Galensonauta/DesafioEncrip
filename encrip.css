@@ -54,10 +54,14 @@
 }
 .mensajes{
     position: absolute;
-    bottom: 15px;
+    bottom: -60px;
 }
 .button{
-    margin-top: 15px;
+    margin-top: 90px;
+    position: absolute;
+}
+.bCopiar{
+    margin-top: 50px;
 }
 #encrip{
     background-color: #0A3871;
@@ -109,7 +113,7 @@ main{
 }
 h6{
  position: absolute;
- bottom: 120px;
+ bottom: 70px;
  width: 336px;
 height: 28px;
 
@@ -123,7 +127,7 @@ color: #495057;
 }
 h1{
 width: 336px;
-height: 48px;
+height: 15px;
 
 font-family: 'Inter';
 font-style: normal;
