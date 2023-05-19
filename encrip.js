@@ -12,12 +12,16 @@ function bEncrip(){
     mensajeResp.value=textoEn
     mensajeOriginal.value= "";
     mensajeResp.style.backgroundImage="none";
+    const mensajes=document.querySelector(".mensajes")
+    mensajes.style.display="none";
 }
 function bDesencrip(){
     const textoEn=desencrip(mensajeResp.value)
     mensajeOriginal.value=textoEn
     mensajeResp.value= "";
     mensajeResp.style.backgroundImage="none";
+    const mensajes=document.querySelector(".mensajes")
+    mensajes.style.display="none";
 }
 function encrip(codigo){ 
     let codigox = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]]; 
