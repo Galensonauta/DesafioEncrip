@@ -8,21 +8,16 @@
 .logo{
     padding-top: 10px;
     margin-left: 10px;
-    width: 5%;
+    width: 2%;
 }
-.muñeco{
-    position: absolute;
-width: 336px;
-height: 304px;
-left: 725px;
-top: 283px;
-}
+
 .mensajeOriginal {
-border: none;
-color: #0A3871;
-margin-top: 90px;
-text-transform: lowercase;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
 }
+
 ::placeholder{
     color: #0A3871;
 }
@@ -33,24 +28,22 @@ text-transform: lowercase;
     background-image: url("Muñeco.png");
     background: white;
     background-repeat: no-repeat;
-    boder: none;
+    border: none;
     border-radius: 24px;
     color: #0A3871;
     margin: 32px;
     padding-left: 20px;
     position: fixed;
-width: 336px;
-height: 450px;
-left: 725px;
-top: 10px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-
-}
+    height: 460px;
+    left: 840px;
+    top: 30px;
+    width: 336px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+   }
 .mensajeResp:focus{
     outline: none;
 }
@@ -86,9 +79,9 @@ line-height: 150%;
     color:  white;
     cursor: pointer;
     height: 67px;
-    width: 336px;
-    margin-top: 400px;
-    margin-left: 100px;
+    width: 300px;
+    margin-top: 500px;
+    margin-left: 50px;
 }
 main{
     display: flex;
@@ -99,14 +92,14 @@ main{
     position: absolute;
     margin-top: 40px;
     margin-right: 40px;
-    height: auto;
-    left: 725px;
-    top: 40px;
+    height: 490px;
+    left: 850px;
+    top: 10px;
     width: 400px;
 
 /* White */
 
-background: #FFFFFF;
+background: #F3F5FC;
 /* shadow */
 
 box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
