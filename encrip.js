@@ -1,12 +1,6 @@
 const mensajeOriginal= document.querySelector(".mensajeOriginal");
 const mensajeResp=document.querySelector(".mensajeResp");
 
-/*La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"*/
-
 function bEncrip(){
     const textoEn=encrip(mensajeOriginal.value)
     mensajeResp.value=textoEn
@@ -23,6 +17,12 @@ function bDesencrip(){
     const mensajes=document.querySelector(".mensajes")
     mensajes.style.display="none";
 }
+function bCopiar(){
+    const copiado=  mensajeResp.value
+    navigator.clipboard.writeText(copiado)
+
+}
+
 function encrip(codigo){ 
     let codigox = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]]; 
 
