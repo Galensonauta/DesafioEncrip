@@ -54,14 +54,15 @@
 }
 .mensajes{
     position: absolute;
-    bottom: -60px;
+    bottom: -30px;
+    margin-left: 35px;
 }
 .button{
-    margin-top: 90px;
+    margin-top: 60px;
     position: absolute;
 }
 .bCopiar{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #encrip{
     background-color: #0A3871;
