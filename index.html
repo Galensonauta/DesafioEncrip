@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encrip</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./encrip.css" />
+</head>
+<body>
+    <header>
+        <img class="logo" src="Vector.png">
+    </header>
+<main>
+    <section class="principal">
+        <textarea class="mensajeOriginal" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+        <h6>No usar mayusculas ni acentos</h6>
+        <div class="button">
+            <button id="encrip" onclick="bEncrip()">Encriptar</button>
+            <button id="desencrip" onclick="bDesencrip()">Desencriptar</button>
+        </div>
+        </section>
+        <section class="area">
+            <textarea class="mensajeResp" cols="30" rows="10"></textarea>
+            <div class="mensajes">
+                <h1>Ningun mensaje fue encriptado</h1>
+                <h2>Ingrese el texto que desea encriptar</h2></div>
+                <div class="bCopiar">
+                <button id="copiar" onclick="bCopiar()">Copiar</button>
+            </div>
+        </section>
+        <script src="encrip.js"></script>           
+</main>
+</body>
+</html>
